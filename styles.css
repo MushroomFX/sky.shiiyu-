@@ -1,0 +1,43 @@
+.item-lore, #dimmer, #nav_items_container{
+	backdrop-filter: blur(5px);
+}
+.max-stat > .stat-name > .stat-name-span, .max-stat .stat-name >.stat-name-span{
+	animation: loading 1.5s ease-in-out infinite alternate;
+	font-weight: 900;
+}
+.petMax{
+	animation: glowingPet 1.5s ease-in-out infinite alternate;
+	font-weight: 900;
+}
+@keyframes loading {
+  to {
+    text-shadow: 0px 0px 20px var(--maxed-hex);
+    color: var(--§e);
+  }
+}
+@keyframes glowingPet {
+  to {
+    text-shadow: 0px 0px 20px var(--§8);
+    color: var(--§f)
+  }
+}
+.skill-progress-bar{
+    box-shadow: 0px 0px 20px var(--skillbar);
+}
+.show-all{
+    text-shadow: 0px 0px 20px var(--link-hex);
+}
+
+#stats_for_player{
+	    text-decoration: underline;
+	    text-decoration-color: var(--skillbar);
+}
+.rank-name, .rank-plus[]
+	    text-decoration: none !important;
+}
+#wrapper, #skin_display, #player_model{
+-webkit-transition: all 0.5s 0s ease !important;
+-moz-transition: all 0.5s 0s ease !important;
+-o-transition: all 0.5s 0s ease !important;
+transition: all 0.5s 0s ease !important;
+}
