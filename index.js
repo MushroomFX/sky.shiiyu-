@@ -1,3 +1,4 @@
+function skyPlus(){
 var timeout =setTimeout(function() {
 	for (i = 0;i < document.querySelectorAll(".max-stat > .stat-name").length;i++) {
 		var temp = document.querySelectorAll(".max-stat > .stat-name")[i].innerText;
@@ -71,4 +72,5 @@ function toggleFull(){
 		document.getElementById('full_button').style.background = "#ffffffcc"
 	}
 	console.log(localStorage.getItem('fullMode'));
+}
 }
